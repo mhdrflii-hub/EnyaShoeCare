@@ -1,0 +1,17 @@
+Homestead.yaml
+Thumbs.db
+
+# Environment dan file rahasia
+.env
+.env.*
+!.env.example
+
+# Dependency
+/node_modules/
+/vendor/
+
+# Build dan cache
+/public/build/
+/storage/*.key
+/database/*.sqlite
+/database/*.sqlite-*
