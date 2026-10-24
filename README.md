@@ -1,58 +1,106 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# EnyaShoeCare 👟
 
-## About Laravel
+**Web Application for Shoe Care Service Management**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+EnyaShoeCare is a web application project built with Laravel to support shoe care service management.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## About the Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+EnyaShoeCare is developed as a web development project focused on organizing shoe care services through a web-based application.
 
-## Learning Laravel
+## Tech Stack
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP
+- Laravel
+- SQLite
+- JavaScript
+- Vite
+- CSS
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Features
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+- Web-based application interface
+- Shoe care service management
 
-## Agentic Development
+*Features will be updated based on the application's implemented functionality.*
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## Getting Started
 
-```bash
-composer require laravel/boost --dev
+### Requirements
 
-php artisan boost:install
-```
+- PHP
+- Composer
+- Node.js and npm
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### Installation
 
-## Contributing
+1. Clone the repository:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+   ```bash
+   git clone https://github.com/mhdrflii-hub/EnyaShoeCare.git
+   ```
 
-## Code of Conduct
+2. Enter the project directory:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+   ```bash
+   cd EnyaShoeCare
+   ```
 
-## Security Vulnerabilities
+3. Install PHP dependencies:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+   ```bash
+   composer install
+   ```
 
-## License
+4. Install JavaScript dependencies:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+   ```bash
+   npm install
+   ```
+
+5. Create your environment file:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+   On Windows, you can use:
+
+   ```powershell
+   Copy-Item .env.example .env
+   ```
+
+6. Generate the application key:
+
+   ```bash
+   php artisan key:generate
+   ```
+
+7. Configure your database in `.env`, then run the migrations if needed:
+
+   ```bash
+   php artisan migrate
+   ```
+
+8. Start the development server:
+
+   ```bash
+   php artisan serve
+   ```
+
+   In another terminal, run:
+
+   ```bash
+   npm run dev
+   ```
+
+## Developer
+
+**mhdrflii-hub**
+
+GitHub: https://github.com/mhdrflii-hub
+
+---
+
+This project is part of my web development portfolio.
